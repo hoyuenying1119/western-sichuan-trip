@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+  <name>川西格聂大环线 2026.10.17-24（原计划）</name>
+  <description>成都出发，317进318出，8天自驾大环线（原计划）</description>
+
+  <Style id="D1"><LineStyle><color>ff5957e1</color><width>4</width></LineStyle></Style>
+  <Style id="D2"><LineStyle><color>ff2b8ef2</color><width>4</width></LineStyle></Style>
+  <Style id="D3"><LineStyle><color>ff48c9ed</color><width>4</width></LineStyle></Style>
+  <Style id="D4"><LineStyle><color>ff4fa159</color><width>4</width></LineStyle></Style>
+  <Style id="D5"><LineStyle><color>ffb2b776</color><width>4</width></LineStyle></Style>
+  <Style id="D6"><LineStyle><color>ff5957e1</color><width>4</width></LineStyle></Style>
+  <Style id="D7"><LineStyle><color>ffa17ab0</color><width>4</width></LineStyle></Style>
+  <Style id="D8"><LineStyle><color>ff794e7a</color><width>4</width></LineStyle></Style>
+
+  <Style id="sleep-safe"><IconStyle><color>ff22c55e</color><scale>1.2</scale></IconStyle></Style>
+  <Style id="sleep-mid"><IconStyle><color>ffeab308</color><scale>1.2</scale></IconStyle></Style>
+  <Style id="sleep-danger"><IconStyle><color>ffef4444</color><scale>1.2</scale></IconStyle></Style>
+  <Placemark>
+    <name>D1 成都→映秀→四姑娘山</name>
+    <styleUrl>#D1</styleUrl>
+    <LineString>
+      <coordinates>104.07,30.67,0 103.49,31.06,0 102.9,31.03,0</coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>D2 双桥沟→小金→丹巴</name>
+    <styleUrl>#D2</styleUrl>
+    <LineString>
+      <coordinates>102.9,31.03,0 102.36,30.99,0 101.9,30.87,0</coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>D3 党岭→玉科草原→道孚</name>
+    <styleUrl>#D3</styleUrl>
+    <LineString>
+      <coordinates>101.9,30.87,0 101.7,30.86,0 101.35,30.78,0 101.12,30.98,0</coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>D4 道孚→新龙→亚青寺</name>
+    <styleUrl>#D4</styleUrl>
+    <LineString>
+      <coordinates>101.12,30.98,0 100.31,30.94,0 100.47,31.07,0</coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>D5 亚青寺→白玉→巴巴沟→巴塘</name>
+    <styleUrl>#D5</styleUrl>
+    <LineString>
+      <coordinates>100.47,31.07,0 98.83,31.22,0 98.6,30.95,0 99.1,30.0,0</coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>D6 巴塘→格聂南线→理塘</name>
+    <styleUrl>#D6</styleUrl>
+    <LineString>
+      <coordinates>99.1,30.0,0 99.88,29.8,0 99.84,29.76,0 100.27,30.0,0</coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>D7 理塘→雅江→新都桥</name>
+    <styleUrl>#D7</styleUrl>
+    <LineString>
+      <coordinates>100.27,30.0,0 101.02,30.03,0 101.49,30.06,0</coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>D8 新都桥→康定→成都</name>
+    <styleUrl>#D8</styleUrl>
+    <LineString>
+      <coordinates>101.49,30.06,0 101.96,30.05,0 104.07,30.67,0</coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>D1 四姑娘山镇 (3200m)</name>
+    <styleUrl>#sleep-mid</styleUrl>
+    <Point>
+      <coordinates>102.9,31.03,0</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>D2 丹巴中路藏寨 (2200m)</name>
+    <styleUrl>#sleep-safe</styleUrl>
+    <Point>
+      <coordinates>101.9,30.87,0</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>D3 道孚县 (3000m)</name>
+    <styleUrl>#sleep-mid</styleUrl>
+    <Point>
+      <coordinates>101.12,30.98,0</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>D4 亚青寺 (4000m)</name>
+    <styleUrl>#sleep-danger</styleUrl>
+    <Point>
+      <coordinates>100.47,31.07,0</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>D5 巴塘县 (2600m)</name>
+    <styleUrl>#sleep-safe</styleUrl>
+    <Point>
+      <coordinates>99.1,30.0,0</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>D6 理塘县 (4000m)</name>
+    <styleUrl>#sleep-danger</styleUrl>
+    <Point>
+      <coordinates>100.27,30.0,0</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>D7 新都桥镇 (3500m)</name>
+    <styleUrl>#sleep-mid</styleUrl>
+    <Point>
+      <coordinates>101.49,30.06,0</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>D8 成都 (500m)</name>
+    <styleUrl>#sleep-safe</styleUrl>
+    <Point>
+      <coordinates>104.07,30.67,0</coordinates>
+    </Point>
+  </Placemark>
+</Document>
+</kml>
